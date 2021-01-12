@@ -1,0 +1,882 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-top-line {
+    background-color: #c5c5c5;
+    height: 16px;
+    color: #ffffff;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 1fr 13.5%;
+}
+.header-top-line h3 {
+    padding-left: 46.9%;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+}
+.header-top-line h3 span {
+    font-weight: 700;
+}
+.header-buttons button {
+    height: 10px;
+    width: 10px;
+    border-radius: 30px;
+}
+.header-carousel {
+    background: url(img/bg-header.png) top center;
+    height: 705px;
+}
+.header-carousel-content {
+    padding-top: 267px;
+    margin-left: 14.8%;
+    text-align: center;
+    width: 20%;
+}
+.header-carousel-content h3 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 34.87px;
+    font-weight: 500;
+    letter-spacing: 0.9px;
+}
+.header-carousel-content p {
+    padding-top: 9px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+}
+.header-confira {
+    margin-top: 36px;
+    border: 1px solid;
+    width: 118px;
+    text-align: center;
+    margin-left: 88px;
+}
+.header-confira p {
+    padding-top: 2px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 24.81px;
+}
+.header-carousel-buttons {
+    text-align: center;
+    padding-top: 240px;
+    margin: 0 auto;
+}
+.header-carousel-buttons button {
+    border: none;
+    border-radius: 30px;
+    width: 19px;
+    height: 19px;
+}
+.active-btn {
+    background: black;
+}
+nav {
+    height: 48px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 11.5% 1fr 19.8%;
+}
+.navbar-menu {
+    padding-left: 100%;
+    padding-top: 13px;   
+}
+.navbar-menu button {
+    background: none;
+    border: none;
+}
+.logo {
+    padding-top: 15px;
+    padding-left: 47.4%;
+}
+.autorisation {
+    display: flex;
+    color: #ffffff;
+    padding-top: 6px;
+    letter-spacing: 1.5px;
+}
+.autorisation p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    padding-right: 22px;
+}
+.autorisation img {
+    padding-bottom: 10px;
+}
+.head {
+    display: flex;
+    justify-content: center;
+    margin: 34px 2.1% 22px 2.1%;
+}
+.seta {
+    padding-top: 6px;
+}
+.title {
+    padding: 0 20px;
+}
+.title h3 {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #393939;
+    letter-spacing: 0.4px;
+}
+.slider {
+    position: relative;
+    padding: 0 12.9% 0 12.9%;
+
+}
+.slider .slick-arrow {
+    position: absolute;
+    top: 44%;
+    z-index: 10;
+    font-size: 0;
+    width: 12px;
+    height: 19px;
+    border: none;
+}
+.slider .slick-arrow.slick-prev {
+    left: 0;
+    margin-left: 11.6%;
+    background: url(icons/slider-left.png) 0 0 / 100% no-repeat;
+}
+.slider .slick-arrow.slick-next {
+    right: 0;
+    margin-right: 11.6%;
+    background: url(icons/slider-right.png) 0 0 / 100% no-repeat;
+}
+.slider-item {
+    display: grid;
+    font-size: 14.41px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+}
+.slider-item p {
+    padding-top: 7px;
+}
+.slider-item img {
+    max-width: 100%;
+}
+.slick-list {
+    overflow: hidden;
+}
+.slick-track {
+    display: flex;
+}
+.slider-item.slick-slide {
+    text-align: center;
+    margin: 0 auto;
+}
+.icon-category {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 37px;
+}
+.category-items {
+    display: grid;
+    margin-left: 11.6%;
+    margin-right: 11.5%;
+    gap: 30px;
+}
+.category-row-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+.category-row-2 {
+    display: grid;
+    grid-template-columns: 63.6% 1fr;
+    gap: 25px;
+}
+.category-row-3 {
+    display: grid;
+    grid-template-columns: 1fr 61.3%;
+    gap: 25px;
+}
+.cat-block {
+    display: grid;
+    position: relative;
+}
+.cat-name {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,.5);
+    color: bisque;
+    display: none;
+}
+.cat-name h3 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 33.79px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+}
+.cat-description {
+    padding-top: 5px;
+    font-size: 19.31px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+}
+.cat-block img {
+    width: 100%;
+}
+.cat-block:hover .cat-name {
+    display: block;
+}
+.gallery-head {
+    display: flex;
+    justify-content: center;
+    margin: 34px 2.1% 22px 2.1%;    
+}
+.galleryInst-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 11.6%;
+    margin-right: 9.8%;
+    margin-top: 37px;
+    gap: 20px;
+}
+.gallery-block {
+    display: grid;
+    position: relative;
+}
+.gallery-block img {
+    width: 100%;
+}
+.inst-hover {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,.5);
+    color: bisque;
+    display: none;
+    padding-top: 50px;
+}
+.inst-hover img {
+    width: 20px;
+}
+.inst-hover p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 24.16px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    padding-top: 38px;
+}
+.gallery-block:hover .inst-hover {
+    display: block;
+}
+
+.quemUSA {
+    margin-top: 50px;
+}
+.quemUSA-head {
+    display: flex;
+    justify-content: center;
+    margin: 34px 2.1% 22px 2.1%;    
+}
+.quemUSA-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 11.6%;
+    margin-right: 9.4%;
+    margin-top: 37px;
+    gap: 20px;
+}
+.quemUSA-block {
+    display: grid;
+    position: relative;
+}
+.quemUSA-block img {
+    width: 100%;
+}
+.quemUSA-hover {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,.5);
+    color: bisque;
+    display: none;
+    padding-top: 125px;
+    font-size: 24.16px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+}
+.quemUSA-block:hover .quemUSA-hover {
+    display: block;
+}
+
+
+.footer-blocks {
+    display: flex;
+    margin-left: 11.6%;
+    margin-right: 11.4%;
+    margin-bottom: 51px;
+    margin-top: 75px;
+}
+.footer-black {
+    display: flex;
+    margin-right: 0.7%;
+    width: 21.9%;
+}
+.square {
+    width: 95%;
+    height: 54px;
+    background-color: #000000;
+}
+.square p {
+    padding-left: 38px;
+    padding-top: 13px;
+    color: #ffffff;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    letter-spacing: 3.6px;
+    position: relative;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 24px solid transparent;
+    border-left: 15px solid #000000;
+    border-bottom: 27px solid transparent;
+}
+.footer-nome {
+    border: 1px solid;
+    width: 31.6%;
+    margin-right: 8px;
+    padding: 1% 12.9%;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 19.23px;
+}
+.footer-email {
+    border: 1px solid;
+    width: 34.5%;
+    margin-right: 1%;
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 1px;
+    font-size: 19.23px;
+    padding: 1% 0 0 8.5%
+}
+.footer-cadastrar {
+    border: 1px solid #4f5052;
+    border-bottom: 5px solid;
+    width: 20%;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 19.23px;
+    padding: 1% 0 0 4.7%;
+    letter-spacing: 3.8px;
+    background-color: #d0d0d0;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 11.9%;
+    padding-right: 11.1%;
+    color: #ffffff;
+    background-color: #000000;
+    height: 36px;
+}
+.footer-links {
+    display: flex;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 15.38px;
+    padding-top: 7px;
+}
+.footer-links-sobre {
+    padding-right: 41px;
+    letter-spacing: 1.1px;
+}
+.footer-links-contato {
+    padding-right: 34px;
+    letter-spacing: 0.5px;
+}
+.footer-links-termos {
+    padding-right: 28px;
+    letter-spacing: 0.8px;
+    word-spacing: 1.8px;
+}
+.footer-links-politica {
+    letter-spacing: 1.1px;
+    word-spacing: 2.2px;
+}
+.footer-icons {
+    padding-top: 3px;
+}
+.footer-icons img {
+    padding: 0 6px 0 0;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .header-carousel-buttons {
+        padding-top: 190px;
+    }
+    .inst-hover img {
+        width: 18px;
+    }
+    .inst-hover p {
+        font-size: 18px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .header-top-line {
+        font-size: 10.69px;
+        display: block;
+        height: 14px;
+    }
+    .header-top-line h3 {
+        padding-left: 32.4%;
+        letter-spacing: 0.4px;
+        font-weight: 500;
+    }
+    .header-buttons {
+        display: none;
+    }
+    .header-carousel {
+        background: url(img-tab/bg-header.png) top center;
+        height: 460px;
+    }
+    .header-carousel-content {
+        padding-top: 174px;
+        margin-left: 7.2%;
+        width: 26.6%;
+    }
+    .header-carousel-content h3 {
+        font-size: 22.68px;
+        letter-spacing: 0.6px;
+    }
+    .header-carousel-content p {
+        font-size: 15.18px;
+        padding-top: 4px;
+        letter-spacing: 0.4px;
+    }
+    .header-confira {
+        margin-left: 28%;
+        margin-top: 24px;
+        width: 75px;
+    }
+
+    .header-carousel-buttons {
+        text-align: center;
+        padding-top: 240px;
+        margin: 0 auto;
+    }
+    .header-carousel-buttons button {
+        border: none;
+        border-radius: 30px;
+        width: 19px;
+        height: 19px;
+    }
+    .active-btn {
+        background: black;
+    }
+    nav {
+        height: 38px;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 2.3% 1fr 15.5%
+    }
+    .navbar-menu {
+        padding-left: 100%;
+        padding-top: 7px;
+    }
+    .navbar-menu button {
+        width: 27px;
+    }
+    .logo {
+        padding-top: 8px;
+        padding-left: 43.7%;
+    }
+    .autorisation {
+        padding-top: 0;
+    }
+    .autorisation p {
+        font-size: 21.66px;
+        padding-right: 13px;
+        padding-top: 4px;
+    }
+    .autorisation img {
+        padding-bottom: 7px;
+        width: 41px;
+    }
+    .head {
+        margin: 34px 2.1% 22px 2.1%;
+    }
+    .title h3 {
+        font-size: 19px;
+        letter-spacing: 0;
+    }
+    .header-carousel-buttons {
+        padding-top: 152px;
+    }
+    .header-carousel-buttons button {
+        width: 10px;
+        height: 10px;
+    }
+    .icon-category {
+        margin-top: 84px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .icon-category img {
+        width: 15%;
+    }
+    .category-items {
+        display: grid;
+        margin-left: 2.8%;
+        margin-right: 2%;
+        gap: 18px;
+    }
+    .category-row-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 19px;
+    }
+    .category-row-2 {
+        display: grid;
+        grid-template-columns: 63.6% 1fr;
+        gap: 17px;
+    }
+    .category-row-3 {
+        display: grid;
+        grid-template-columns: 1fr 61.3%;
+        gap: 25px;
+    }
+    .galleryInst {
+    }
+    .gallery-head {
+        margin: 20px 3.2% 16px 3.7%;
+    }
+    .galleryInst-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        margin-left: 2.9%;
+        margin-right: 1.8%;
+        margin-top: 0;
+        gap: 16px;
+    }
+    .galleryInst-content div {
+        display: grid;
+    }
+    .galleryInst-content div img {
+        max-width: 100%;
+    }
+    .inst-hover img {
+        width: 16px;
+    }
+    .inst-hover p {
+        font-size: 14px;
+    }
+    .quemUSA {
+        margin-top: 0;
+    }
+    .quemUSA-head {
+        margin: 20px 3.2% 16px 3.7%;
+    }
+    .quemUSA-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-left: 2.8%;
+        margin-right: 1.9%;
+        margin-top: 20px;
+        gap: 17px;
+    }
+    .quemUSA-content div {
+        display: grid;
+    }
+    .quemUSA-content div img {
+        max-width: 100%;
+    }
+    .footer-blocks {
+        margin-left: 3.1%;
+        margin-right: 2.2%;
+        height: 31px;
+        margin-bottom: 37px;
+        margin-top: 42px;
+    }
+    .footer-black {
+        margin-right: 1%;
+        width: 26%;
+    }
+    .square {
+        width: 94%;
+        height: 31px;
+    }
+    .square p {
+        padding-left: 18px;
+        padding-top: 7px;
+        font-size: 14px;
+        letter-spacing: 1.3px;
+    }
+    .triangle {
+        border-top: 13px solid transparent;
+        border-left: 7px solid #000000;
+        border-bottom: 18px solid transparent;
+    }
+    .footer-nome {
+        width: 34.4%;
+        margin-right: 1%;
+        padding: 0.8% 11.2%;
+        letter-spacing: 1.8px;
+        font-size: 14px;
+    }
+    .footer-email {
+        width: 40.5%;
+        margin-right: 1%;
+        letter-spacing: 0.4px;
+        word-spacing: 2.4px;
+        font-size: 14px;
+        padding: 0.8% 0 0 6.8%;
+    }
+    .footer-cadastrar {
+        border-bottom: 2px solid;
+        width: 24%;
+        font-size: 14px;
+        padding: 0.8% 0 0 3.7%;
+        letter-spacing: 1.3px;
+    }
+    footer {
+        padding: 0 2.6% 0 2.9%;
+        height: 36px;
+    }
+    .footer-links {
+        font-size: 14px;
+        padding-top: 9px;
+    }
+    .footer-links-sobre {
+        padding-right: 28px;
+        letter-spacing: 0.7px;
+    }
+    .footer-links-contato {
+        padding-right: 22px;
+        letter-spacing: 1.1px;
+    }
+    .footer-links-termos {
+        padding-right: 22px;
+        letter-spacing: 0.8px;
+        word-spacing: 1px;
+    }
+    .footer-links-politica {
+        letter-spacing: 1.1px;
+        word-spacing: 0.2px;
+    }
+    .footer-icons {
+        padding-top: 10px;
+    }
+    .footer-icons img {
+        height: 15px;
+        margin: 0 2px 0 0;
+    }
+}
+
+
+
+
+
+
+/* @media screen and (max-width: 576px) {
+    .square p {
+        font-size: 10px;
+    }
+    .footer-nome {
+        font-size: 10px;
+    }
+    .footer-email {
+        font-size: 10px;
+    }
+    .footer-cadastrar {
+        font-size: 10px;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    #wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    header {
+        order: 2;
+    }
+    nav {
+        order: 1;
+        height: 50px;
+        grid-template-columns: 3.9% 1fr 14.5%;
+    }
+    .navbar-menu {
+        padding-top: 16px;
+        padding-left: 100%;
+    }
+    .logo {
+        padding-left: 19.6%;
+        padding-top: 16px;
+    }
+    .autorisation p {
+        display: none;
+    }
+    .autorisation img {
+        padding-top: 9px;
+        width: 36px;
+        height: 44px;
+    }
+    .header-top-line {
+        height: 21px;
+        /* font-size: 12px; */
+    }
+    .header-top-line h3 {
+        padding-left: 3.3%;
+        padding-right: 3.9%;
+        letter-spacing: 0.9px;
+        padding-top: 2px;
+    }
+    .header-carousel {
+        background: url(img-mobile/bg-header.png) top center;
+        height: 195px;
+    }
+    .header-carousel-content {
+        padding-top: 55px;
+        margin-left: 4.1%;
+        width: 40.1%;
+    }
+    .header-carousel-content h3 {
+        font-size: 14px;
+        letter-spacing: 0.3px;
+    }
+    .header-carousel-content p {
+        font-size: 11.15px;
+        padding-top: 3px;
+    }
+    .header-confira {
+        margin-left: 18%;
+        margin-top: 11px;
+        width: 76px;
+        border: 2px solid;
+    }
+    .header-confira p {
+        padding-top: 1px;
+        font-size: 16.14px;
+    }
+    .header-carousel-buttons {
+        padding-top: 42px;
+    }
+    .header-carousel-buttons button {
+        border: 1px solid #a1a1a0;
+        width: 12px;
+        height: 12px;
+    }
+    .icon-category {
+        margin-top: 77px;
+        margin-bottom: 31px;
+    }
+    .icon-category img {
+        width: 40%;
+    }
+    .category-items {
+        display: grid;
+        margin-left: 4.8%;
+        margin-right: 4%;
+        gap: 12px;
+    }
+    .category-row-1 {
+        display: grid;
+        grid-template-columns: none;
+        gap: 13px;
+    }
+    .category-row-2 {
+        display: grid;
+        grid-template-columns: none;
+        gap: 13px;
+    }
+    .category-row-3 {
+        display: grid;
+        grid-template-columns: none;
+        gap: 14px;
+    }
+    .footer-blocks {
+        flex-direction: column;
+        margin-left: 4.4%;
+        margin-right: 4.7%;
+    }
+    .footer-black {
+        width: 100%;
+        font-size: 19.47px;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 6px;
+    }
+    .square {
+        width: 100%;
+    }
+    .square p {
+        padding-left: 0;
+        padding-top: 0;
+        font-size: 19.47px;
+        letter-spacing: 1.3px;
+        font-weight: 500;
+    }
+    .triangle {
+        display: none;
+    }
+    .footer-nome {
+        width: 100%;
+        font-size: 19.47px;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 6px;
+    }
+    .footer-email {
+        width: 100%;
+        font-size: 19.47px;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 6px;
+    }
+    .footer-cadastrar {
+        width: 100%;
+        font-size: 19.47px;
+        text-align: center;
+        margin-right: 0;
+    }
+    footer {
+        display: none;
+    }
+}
